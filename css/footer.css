@@ -57,3 +57,67 @@
 .footer .social-ball:focus {
   background-color: #31d0aa;
 }
+
+.footer .footer-subscribe-title {
+  font-weight: 500;
+  color: #fff;
+}
+
+.container.footer-subscribe {
+  margin-left: auto;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-form {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.footer-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+  background-color: #2e2f42;
+  color: #fff;
+  transition: border-color 250ms ease-in-out;
+}
+
+.footer-input:focus {
+  border-color: #31d0aa;
+  outline: none;
+}
+
+.footer-input::placeholder {
+  color: #fff;
+}
+
+.footer-button {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background-color: #4d5ae5;
+  border: 0;
+  border-radius: 4px;
+  width: 165px;
+  color: #fff;
+  height: 40px;
+  cursor: pointer;
+  padding: 8px 24px;
+  max-width: 165px;
+  transition: background-color 250ms ease-in-out;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+  background-color: #31d0aa;
+}
