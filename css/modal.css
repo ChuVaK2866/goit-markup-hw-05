@@ -99,6 +99,7 @@
 }
 
 .modal-area {
+  margin-bottom: 8px;
   position: relative;
 }
 
@@ -132,7 +133,6 @@
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
-  margin-bottom: 16px;
 }
 
 .modal-write-area.comment::placeholder {
@@ -141,6 +141,10 @@
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+}
+
+.modal-area.comment {
+  margin-bottom: 16px;
 }
 
 .checkbox-icon {
