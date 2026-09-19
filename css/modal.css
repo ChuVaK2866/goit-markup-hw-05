@@ -99,7 +99,6 @@
 }
 
 .modal-area {
-  margin-bottom: 8px;
   position: relative;
 }
 
@@ -133,7 +132,7 @@
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-write-area.comment::placeholder {
